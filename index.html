@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Phaser Full Screen Mobile Example</title>
+    <title>Enhanced Phaser Tutorial Game</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
     <meta name="format-detection" content="telephone=no">
-    <meta name="HandheldFriendly" content="true" />
+    <meta name="HandheldFriendly" content="ruen" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -35,14 +35,14 @@
     <script src="lib/phaser.min.js"></script>
     <!-- Load game source files -->
     <script src="src/Game.js"></script>
-    <!-- Load game entrance -->
-    <script src="src/app.js"></script>
     <!-- Load and initialize Cordova -->
     <script src="cordova.js"></script>
     <script src="src/cordova-init.js"></script>
+    <!-- Load firebase db engine -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 </head>
+
 <body>
-    <!-- Main canvas for rendering game stage -->
     <div id="game"></div>
 </body>
 </html>
